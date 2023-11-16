@@ -112,28 +112,6 @@ func BidScore(h *hub) func(http.ResponseWriter, *http.Request) {
 						Type:    message.Type,
 						Payload: message.Payload,
 					}
-					// } else if message.Type == "finish" {
-					// 	payload := message.Payload
-
-					// 	id := payload.(map[string]interface{})["id"].(string)
-					// 	match, err := repositories.GetMatchById(id)
-					// 	if err != nil {
-					// 		log.Println("Error getting match:", err)
-					// 		return
-					// 	}
-					// 	err = conn.WriteJSON(Message{
-					// 		Type:    "match",
-					// 		Payload: match,
-					// 	})
-					// 	if err != nil {
-					// 		log.Println("Error sending match to client:", err)
-					// 		return
-					// 	}
-
-					// 	h.broadcastMessage <- Message{
-					// 		Type:    message.Type,
-					// 		Payload: message.Payload,
-					// 	}
 
 				} else if message.Type == "delegate" {
 					h.broadcastMessage <- Message{
@@ -145,6 +123,19 @@ func BidScore(h *hub) func(http.ResponseWriter, *http.Request) {
 					ws := message.Payload.(map[string]interface{})["ws"].(string)
 					log.Printf("Running %s", ws)
 
+					wsPath, err := ReadWs(ws)
+					if err != nil {
+						log.Println("Error reading ws:", err)
+						return
+					}
+					log.Printf("Path: %s", wsPath)
+
+					err = RunningExe(wsPath)
+					if err != nil {
+						log.Println("Error running exe:", err)
+						return
+					}
+
 					h.broadcastMessage <- Message{
 						Type:    message.Type,
 						Payload: message.Payload,
@@ -153,6 +144,19 @@ func BidScore(h *hub) func(http.ResponseWriter, *http.Request) {
 
 					ws := message.Payload.(map[string]interface{})["ws"].(string)
 					log.Printf("Terminating %s", ws)
+
+					wsPath, err := ReadWs(ws)
+					if err != nil {
+						log.Println("Error reading ws:", err)
+						return
+					}
+					log.Printf("Path: %s", wsPath)
+
+					err = TerminateExe(wsPath)
+					if err != nil {
+						log.Println("Error terminating exe:", err)
+						return
+					}
 
 					h.broadcastMessage <- Message{
 						Type:    message.Type,

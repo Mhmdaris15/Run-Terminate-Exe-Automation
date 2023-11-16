@@ -28,7 +28,3 @@ func main() {
 		log.Fatal(err)
 	}
 }
-
-// func main() {
-// 	dependencies.ReadJSON()
-// }
