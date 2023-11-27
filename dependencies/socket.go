@@ -130,6 +130,17 @@ func BidScore(h *hub) func(http.ResponseWriter, *http.Request) {
 					}
 					log.Printf("Path: %s", wsPath)
 
+					// Check if exe is already running or not
+					_, ok := RunningExes[wsPath]
+					if ok {
+						log.Printf("Exe %s is already running", wsPath)
+						h.broadcastMessage <- Message{
+							Type:    "already_running",
+							Payload: message.Payload,
+						}
+						return
+					}
+
 					err = RunningExe(wsPath, ws)
 					if err != nil {
 						log.Println("Error running exe:", err)
