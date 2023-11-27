@@ -90,11 +90,11 @@ func BidScore(h *hub) func(http.ResponseWriter, *http.Request) {
 		for {
 			messageType, payload, err := conn.ReadMessage()
 			if err != nil {
-				// if websocket.IsUnexpectedCloseError(err, websocket.CloseNormalClosure, websocket.CloseGoingAway) {
-				// 	log.Println("Error reading message:", err)
-				// } else {
-				// 	log.Println("Error reading message:", err)
-				// }
+				if websocket.IsUnexpectedCloseError(err, websocket.CloseNormalClosure, websocket.CloseGoingAway) {
+					log.Println("Error reading message:", err)
+				} else {
+					log.Println("Error reading message:", err)
+				}
 				return
 			}
 
