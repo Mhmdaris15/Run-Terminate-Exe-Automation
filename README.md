@@ -18,7 +18,7 @@ This program allows you to run and terminate executable programs remotely using 
 1. Clone this repository to your local machine: `git clone https://github.com/Mhmdaris15/Run-Terminate-Exe-Automation/`
 2. Build the project by navigating to the root directory and running `go build -o main .` (assuming you have Go installed)
 3. Run the server component by executing `./main -server`
-4. Open a web browser and navigate to `http://localhost:3000` to access the web interface
+4. Open a web browser and navigate to `http://localhost:3050` to access the web interface
 5. Use the web interface to upload an executable file and start the process on the remote machine
 6. Once the process is running, you can use the web interface to terminate it
 
@@ -32,7 +32,7 @@ The server component listens for incoming connections on port 3000 by default. Y
 
 The client component connects to the server using a WebSocket connection. You can specify the IP address and port number of the server when starting the client: `./main -client <ip_address>:<port>`
 
-For example, if the server is running on `http://localhost:3000`, you can start the client like this: ./main -client localhost:3000
+For example, if the server is running on `http://localhost:3050`, you can start the client like this: ./main -client localhost:3050
 
 ## Running Executables
 
