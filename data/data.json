@@ -1,14 +1,13 @@
 {
-	"pd": "F:\\NUC_Aris\\Nusantara-2\\Compile\\PixelStreaming\\1.9.8-prod\\Pixel Jelajah 1.9.8\\Nusantara.exe",
-	"d": "F:\\NUC_Aris\\Nusantara-2\\Compile\\PixelStreaming\\1.9.7-prod\\Pixel Jelajah 1.9.7\\Nusantara.exe",
-	"s1": "s1/.exe",
-	"s2": "s2/.exe",
-	"s3": "s3/.exe",
-	"s4": "s4/.exe",
-	"s5": "s5/.exe",
-	"s6": "s6/.exe",
-	"b3": "b3/.exe",
-	"b4": "b4/.exe",
-	"b5": "b5/.exe",
-	"b6": "b6/.exe"
+	"wss://s3bangka.nusantara.digital/": "F:\\NUC_Aris\\Nusantara-2\\Compile\\PixelStreaming\\1.9.9-prod\\Pixel Jelajah 1.9.9\\Nusantara.exe",
+	"wss://s4bangka.nusantara.digital/": "F:\\NUC_Aris\\Nusantara-2\\Compile\\PixelStreaming\\2.0.0-prod\\Pixel Jelajah 2.0.0\\Nusantara.exe",
+	"wss://signalling1.nusantara.digital/": "s1/.exe",
+	"wss://signalling2.nusantara.digital/": "s2/.exe",
+	"wss://signalling3.nusantara.digital/": "s3/.exe",
+	"wss://signalling4.nusantara.digital/": "s4/.exe",
+	"wss://signalling5.nusantara.digital/": "s5/.exe",
+	"wss://signalling6.nusantara.digital/": "s6/.exe",
+	"wss://signallingdev1.nusantara.digital/": "b3/.exe",
+	"wss://signallingdev2.nusantara.digital/": "b4/.exe",
+	"wss://signallingdev3.nusantara.digital/": "b5/.exe"
 }

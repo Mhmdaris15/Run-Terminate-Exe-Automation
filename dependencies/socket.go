@@ -130,7 +130,7 @@ func BidScore(h *hub) func(http.ResponseWriter, *http.Request) {
 					}
 					log.Printf("Path: %s", wsPath)
 
-					err = RunningExe(wsPath)
+					err = RunningExe(wsPath, ws)
 					if err != nil {
 						log.Println("Error running exe:", err)
 						return
