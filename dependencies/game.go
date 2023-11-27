@@ -14,6 +14,14 @@ type SocketSignalling struct {
 
 // For running with arguments
 var SocketMappings = map[string]SocketSignalling{
+	"wss://s1bangka.nusantara.digital/": {
+		IPAddress: "10.10.64.129",
+		Port:      2073,
+	},
+	"wss://s2bangka.nusantara.digital/": {
+		IPAddress: "10.10.64.129",
+		Port:      2077,
+	},
 	"wss://s3bangka.nusantara.digital/": {
 		IPAddress: "10.10.64.129",
 		Port:      2081,
