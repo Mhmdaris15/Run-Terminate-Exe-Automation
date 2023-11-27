@@ -11,8 +11,8 @@ func SetupRoutes(router *gin.Engine) {
 	h := SocketInitiate()
 	go h.SocketRun()
 
-	router.GET("/ws", gin.WrapF(http.HandlerFunc(SocketAllowUpgrade(h))))
-	router.GET("/ws/bid", gin.WrapF(http.HandlerFunc(BidScore(h))))
+	// router.GET("/ws", gin.WrapF(http.HandlerFunc(SocketAllowUpgrade(h))))
+	// router.GET("/ws/bid", gin.WrapF(http.HandlerFunc(BidScore(h))))
 	router.POST("/run", RunHandler)
 	router.POST("/terminate", TerminateHandler)
 
