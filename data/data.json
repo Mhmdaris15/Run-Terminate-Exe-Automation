@@ -6,9 +6,10 @@
 	"wss://signalling6.nusantara.digital/": "s6/.exe",
 	"wss://signallingdev1.nusantara.digital/": "b3/.exe",
 	"wss://signallingdev2.nusantara.digital/": "b4/.exe",
-	"wss://signallingdev3.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.0\\dev3\\Nusantara.exe",
-	"wss://s3bangka.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.0\\d\\Nusantara.exe",
-	"wss://s4bangka.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.0\\pd\\Nusantara.exe",
-	"wss://signalling1.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.0\\s1\\Nusantara.exe",
-	"wss://signalling2.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.0\\s2\\Nusantara.exe"
+	"wss://signallingdev3.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.1\\dev3\\Nusantara.exe",
+	"wss://s1bangka.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.1\\bangka1\\Nusantara.exe",
+	"wss://s3bangka.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.1\\d\\Nusantara.exe",
+	"wss://s4bangka.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.1\\pd\\Nusantara.exe",
+	"wss://signalling1.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.1\\s1\\Nusantara.exe",
+	"wss://signalling2.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.1\\s2\\Nusantara.exe"
 }
