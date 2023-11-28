@@ -1,5 +1,5 @@
 {
-	"ws://192.168.0.134:80/": "F:\\NUC_Aris\\Nusantara-2\\Compile\\PixelStreaming\\2.0.0-prod\\Pixel Jelajah 2.0.0\\Nusantara.exe",
+	"ws://192.168.0.134:80": "F:\\NUC_Aris\\Nusantara-2\\Compile\\PixelStreaming\\2.0.0-prod\\Pixel Jelajah 2.0.0\\Nusantara.exe",
 	"wss://signalling3.nusantara.digital/": "s3/.exe",
 	"wss://signalling4.nusantara.digital/": "s4/.exe",
 	"wss://signalling5.nusantara.digital/": "s5/.exe",

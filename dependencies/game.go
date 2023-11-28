@@ -66,6 +66,10 @@ var SocketMappings = map[string]SocketSignalling{
 		IPAddress: "10.11.60.213",
 		Port:      65,
 	},
+	"ws://192.168.0.134:80": {
+		IPAddress: "192.168.0.134",
+		Port:      8888,
+	},
 }
 
 // Create a map with key path and value exec.Cmd
