@@ -116,7 +116,7 @@ func TerminateExe(path string) error {
 	// Terminate the Game
 	Pid := cmd.Process.Pid
 
-	cmd = exec.Command("taskkill", "/F", "/T", "/PID", fmt.Sprint(Pid))
+	cmd = exec.Command("Stop-Process", "-Id", fmt.Sprint(Pid), "-Force")
 	err := cmd.Start()
 	if err != nil {
 		fmt.Println("Error terminating EXE:", err)
