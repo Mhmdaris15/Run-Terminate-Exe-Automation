@@ -72,15 +72,15 @@ var SocketMappings = map[string]SocketSignalling{
 	},
 	"wss://citrakertagame.nusantara.digital/": {
 		IPAddress: "10.11.60.213",
-		Port: 2097,
+		Port:      2097,
 	},
 	"wss://citrakertagame2.nusantara.digital/": {
 		IPAddress: "10.11.60.213",
-		Port: 2101,
+		Port:      2101,
 	},
 	"wss://citrakertagame3.nusantara.digital/": {
 		IPAddress: "10.10.64.129",
-		Port: 2097,
+		Port:      2097,
 	},
 }
 
@@ -116,10 +116,17 @@ func TerminateExe(path string) error {
 	// Terminate the Game
 	Pid := cmd.Process.Pid
 
-	exec.Command("taskkill", "/F", "/T", "/PID", fmt.Sprint(Pid)).Run()
+	cmd = exec.Command("taskkill", "/F", "/T", "/PID", fmt.Sprint(Pid))
+	err := cmd.Start()
+	if err != nil {
+		fmt.Println("Error terminating EXE:", err)
+		return err
+	}
 
 	// Remove the path and cmd from the map
 	delete(RunningExes, path)
+
+	fmt.Println("EXE file terminated successfully")
 
 	// Log the map
 	fmt.Println(RunningExes)
