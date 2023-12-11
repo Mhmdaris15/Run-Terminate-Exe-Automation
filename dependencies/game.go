@@ -116,12 +116,13 @@ func TerminateExe(path string) error {
 	// Terminate the Game
 	Pid := cmd.Process.Pid
 
-	cmd = exec.Command("Stop-Process", "-Id", fmt.Sprint(Pid), "-Force")
-	err := cmd.Start()
-	if err != nil {
-		fmt.Println("Error terminating EXE:", err)
-		return err
-	}
+	exec.Command("taskkill", "/F", "/T", "/PID", fmt.Sprint(Pid)).Run()
+	// cmd = exec.Command("Stop-Process", "-Id", fmt.Sprint(Pid), "-Force")
+	// err := cmd.Start()
+	// if err != nil {
+	// 	fmt.Println("Error terminating EXE:", err)
+	// 	return err
+	// }
 
 	// Remove the path and cmd from the map
 	delete(RunningExes, path)
