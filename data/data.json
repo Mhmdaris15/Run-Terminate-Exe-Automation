@@ -1,10 +1,18 @@
 {
 	"ws://192.168.0.134:80": "F:\\NUC_Aris\\Nusantara-2\\Compile\\Windows\\1.9.2-prod-multiplayer\\Nusantara.exe",
+<<<<<<< HEAD
 	"wss://signalling3.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.5\\s3\\Nusantara.exe",
 	"wss://signalling4.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.5\\s4\\Nusantara.exe",
 	"wss://signalling5.nusantara.digital/": "D:\\jel\\2.0.1\\s5\\Nusantara.exe",
 	"wss://signalling6.nusantara.digital/": "D:\\jel\\2.0.1\\s6\\Nusantara.exe",
 	"wss://signallingdev1.nusantara.digital/": "D:\\jel\\2.0.1\\Dev1\\Nusantara.exe",
+=======
+	"wss://signalling3.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.2\\s3\\Nusantara.exe",
+	"wss://signalling4.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.2\\s4\\Nusantara.exe",
+	"wss://signalling5.nusantara.digital/": "D:\\jel\\2.0.5\\s5\\Nusantara.exe",
+	"wss://signalling6.nusantara.digital/": "D:\\jel\\2.0.5\\s6\\Nusantara.exe",
+	"wss://signallingdev1.nusantara.digital/": "D:\\jel\\2.0.5\\Dev1\\Nusantara.exe",
+>>>>>>> cb293e2b1d3631d12960af9f68a6dcd7bc144161
 	"wss://signallingdev2.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.2\\dev2\\Nusantara.exe",
 	"wss://signallingdev3.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.2\\dev3\\Nusantara.exe",
 	"wss://s1bangka.nusantara.digital/": "C:\\Users\\Samdhito\\Documents\\game\\2.0.2\\bangka1\\Nusantara.exe",

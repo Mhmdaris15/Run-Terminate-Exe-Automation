@@ -15,6 +15,8 @@
 
 Passionate about software engineering and driven by a strong desire to create innovative and impactful solutions. Currently pursuing an internship at [Jivaloka](https://jivaloka.digital/) as a Project Manager & Game Developer, where I gain valuable experience in managing projects, developing games, and collaborating with a talented team. </h4>
 
+<img src="https://wallpapercave.com/wp/wp5543313.jpg" alt="Meliodas" align="right" width="375" height="auto" />
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mhmdaris15&hide=html&langs_count=14&size_weight=0&count_weight=1&layout=compact&theme=tokyonight&card_width=400px)
 ![Github stats](https://github-readme-stats.vercel.app/api?username=Mhmdaris15&theme=radical&show_icons=true&count_private=true) </td>
 
@@ -100,19 +102,30 @@ Passionate about software engineering and driven by a strong desire to create in
 [![Mhmdaris15`s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Mhmdaris15&theme=github-compact)](https://github.com/Mhmdaris15/github-readme-activity-graph)
 
 <h2> My Projects 📁</h2>
-<a href="https://github.com/Mhmdaris15/Movement-Pass-Clone">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=Movement-Pass-Clone" />
+<a href="https://github.com/Mhmdaris15/linkedin-scraping">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=linkedin-scraping" />
 </a>
-<a href="https://github.com/Mhmdaris15/Multi-Authors-advanced-Django-Blog">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=Multi-Authors-advanced-Django-Blog" />
+<a href="https://github.com/Mhmdaris15/booking-movie-client">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=booking-movie-client" />
 </a>
- <a href="https://github.com/Mhmdaris15/Stackoverflow-Clone">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=Stackoverflow-Clone" />
+ <a href="https://github.com/Mhmdaris15/booking-movie-app">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=booking-movie-app" />
 </a>
- <a href="https://github.com/Mhmdaris15/Zooming-cls">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=Zooming-cls" />
+ <a href="https://github.com/Mhmdaris15/Run-Terminate-Exe-Automation">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=Run-Terminate-Exe-Automation" />
 </a>
-
+ <a href="https://github.com/Mhmdaris15/mija-cms">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=mija-cms" />
+</a>
+ <a href="https://github.com/Mhmdaris15/aplikasi-lelang">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=aplikasi-lelang" />
+</a>
+ <a href="https://github.com/Mhmdaris15/sync-microgen-docker">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=sync-microgen-docker" />
+</a>
+ <a href="https://github.com/Mhmdaris15/tourist-app">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Mhmdaris15&theme=react&repo=tourist-app" />
+</a>
 <br>
 <br>
 
@@ -121,8 +134,8 @@ Passionate about software engineering and driven by a strong desire to create in
 🌟 I'm always open to collaborating on exciting projects and ideas. If you share similar interests or have a project you'd like to work on together, feel free to reach out on the socials below!
 
 <p>
-  <a href="mailto:naz.yeasin@gmail.com" target="_blank"><img alt="E-mail" src="https://img.shields.io/badge/-Gmail-ea4335?style=flat-square&logo=Gmail&logoColor=white" /></a>
-  <a href="wa.me/01672834142" target="_blank"><img alt="WhatsApp" src="https://img.shields.io/badge/-WhatsApp-42e35f?style=flat-square&logo=whatsapp&logoColor=white" /></a>
+  <a href="mailto:muhammadaris1945@gmail.com" target="_blank"><img alt="E-mail" src="https://img.shields.io/badge/-Gmail-ea4335?style=flat-square&logo=Gmail&logoColor=white" /></a>
+  <a href="wa.me/6285814045755" target="_blank"><img alt="WhatsApp" src="https://img.shields.io/badge/-WhatsApp-42e35f?style=flat-square&logo=whatsapp&logoColor=white" /></a>
   <a href="https://linkedin.com/in/Mhmdaris15" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-007ACC?style=flat-square&logo=linkedin&logoColor=white" />
 </p>
 
