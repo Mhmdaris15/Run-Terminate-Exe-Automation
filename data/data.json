@@ -1,7 +1,7 @@
 {
 	"ws://192.168.0.134:80": "F:\\NUC_Aris\\Nusantara-2\\Compile\\Windows\\1.9.2-prod-multiplayer\\Nusantara.exe",
-	"wss://signalling3.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.2\\s3\\Nusantara.exe",
-	"wss://signalling4.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.2\\s4\\Nusantara.exe",
+	"wss://signalling3.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.5\\s3\\Nusantara.exe",
+	"wss://signalling4.nusantara.digital/": "C:\\Users\\samdhito\\Documents\\jel\\2.0.5\\s4\\Nusantara.exe",
 	"wss://signalling5.nusantara.digital/": "D:\\jel\\2.0.1\\s5\\Nusantara.exe",
 	"wss://signalling6.nusantara.digital/": "D:\\jel\\2.0.1\\s6\\Nusantara.exe",
 	"wss://signallingdev1.nusantara.digital/": "D:\\jel\\2.0.1\\Dev1\\Nusantara.exe",
